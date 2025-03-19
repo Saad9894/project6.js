@@ -209,7 +209,7 @@
             } else {
                 newsContainer.innerHTML = '<p>No news found for this topic.</p>';
                 alert(`No news found for ${topic}.`);
-                console.warn(`No articles found for topic: ${topic}`);
+                // console.warn(`No articles found for topic: ${topic}`);
             }
         } catch (error) {
             newsContainer.innerHTML = '<p>Error fetching news. Please try again later.</p>';
